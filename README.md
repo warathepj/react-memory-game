@@ -1,69 +1,105 @@
-# Welcome to your Lovable project
+# Memory Game
 
-## Project info
+A beautifully crafted memory card game built with modern web technologies. Test your memory by matching pairs of cards in this engaging and visually appealing game.
 
-**URL**: https://lovable.dev/projects/e59fa446-e442-4201-a832-8ee9804efb31
+## 🚀 Features
 
-## How can I edit this code?
+- 4x4 grid of memory cards
+- Emoji-based card matching
+- Smooth card flip animations
+- Score tracking
+- Reset game functionality
+- Responsive design
+- Modern UI with shadcn/ui components
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- [React](https://reactjs.org/)
+- UI Framework
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e59fa446-e442-4201-a832-8ee9804efb31) and start prompting.
+- [TypeScript](https://www.typescriptlang.org/)
+- Type Safety
 
-Changes made via Lovable will be committed automatically to this repo.
+- [Vite](https://vitejs.dev/)
+- Build Tool
 
-**Use your preferred IDE**
+- [Tailwind CSS](https://tailwindcss.com/)
+- Styling
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- [shadcn/ui](https://ui.shadcn.com/)
+- UI Components
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏃‍♂️ Getting Started
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js (LTS version recommended)
+- npm or yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Clone the repository:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/warathepj/react-memory-game.git
+
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd react-memory-game
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+
+```
+
+4. Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The game will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🎮 How to Play
 
-**Use GitHub Codespaces**
+1. Click on any card to reveal its emoji
+2. Try to find the matching pair by clicking another card
+3. If the cards match, they'll stay face up
+4. If they don't match, they'll flip back face down
+5. Continue until all pairs are matched
+6. Click "Reset Game" to start a new game
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🏗️ Project Structure
 
-## What technologies are used for this project?
+```memory-game/
+├── src/│   ├── components/
+│   │   ├── Card.tsx│   │   └── ui/
+│   ├── App.tsx│   ├── main.tsx
+│   └── index.css├── public/
+├── package.json└── tailwind.config.ts
+```
 
-This project is built with .
+## 🚀 Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To build for production:
 
-## How can I deploy this project?
+```bash
+npm run build
 
-Simply open [Lovable](https://lovable.dev/projects/e59fa446-e442-4201-a832-8ee9804efb31) and click on Share -> Publish.
+```
 
-## I want to use a custom domain - is that possible?
+The built files will be in the `dist` directory, ready to be deployed to your preferred hosting platform.
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 📝 License
+
+This project is licensed under the MIT License
+
+- see the LICENSE file for details.
+
+  TODO:

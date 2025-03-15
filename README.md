@@ -16,16 +16,16 @@ A beautifully crafted memory card game built with modern web technologies. Test 
 
 - [React](https://reactjs.org/)
 - UI Framework
-
+  .
 - [TypeScript](https://www.typescriptlang.org/)
 - Type Safety
-
+  .
 - [Vite](https://vitejs.dev/)
 - Build Tool
-
+  .
 - [Tailwind CSS](https://tailwindcss.com/)
 - Styling
-
+  .
 - [shadcn/ui](https://ui.shadcn.com/)
 - UI Components
 
@@ -101,5 +101,3 @@ The built files will be in the `dist` directory, ready to be deployed to your pr
 This project is licensed under the MIT License
 
 - see the LICENSE file for details.
-
-  TODO:
